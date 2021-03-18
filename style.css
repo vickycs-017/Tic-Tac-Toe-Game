@@ -1,0 +1,47 @@
+
+#main{
+    margin: 20px auto;
+    height: 300px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    /* border: 1px solid rgb(87, 86, 86); */
+}
+
+#head{ 
+        text-align: center;
+        font-style: inherit;
+        color: orangered; 
+        font-size: 45px; 
+}
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9{
+    width: 98px; 
+    height: 98px; 
+    margin: auto; 
+    border: 3px solid rgb(87, 86, 86); 
+    cursor: pointer;
+    font-size: 70px; 
+    text-align: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+#reset{ 
+    box-sizing: border-box; 
+    /* width: 95px; 
+    height: 40px;  */
+    border: 1px solid dodgerblue; 
+    /* margin: auto;  */
+    border-radius: 4px; 
+    margin-left: 47%;
+    background-color: dodgerblue; 
+    color: white; 
+    font-size: 20px; 
+    cursor: pointer; 
+} 
+#print{
+    text-align: center;
+    font-style: oblique;
+    color: rgb(42, 70, 89);
+}
